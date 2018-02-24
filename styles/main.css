@@ -1,0 +1,154 @@
+/*font-family: 'Titillium Web', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-weight: bold;
+  font-size: 10px;
+}
+.sidebar {
+  font-family: 'Titillium Web', sans-serif;
+  display: inline-block;
+  background-color: #354051;
+  height: 100vh;
+  width: 10rem;
+}
+
+.sidebar__top {
+  border-bottom: 3px solid #303949;
+}
+
+.nav__img {
+  height: 7rem;
+  margin: 1rem 1.8rem;
+  border-radius: 50%;
+}
+
+.nav__name {
+  text-align: center;
+  color: #9D9BAC;
+  /*font-family: 'Source Sans Pro';*/
+  font-weight: bold;
+}
+
+.nav__art {
+  padding: 1rem 0;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  border-bottom: 3px solid #303949;
+}
+
+.nav__title {
+  padding: .6rem 1rem .2rem 1.4rem;
+  font-weight: bold;
+  color: #707E94;
+}
+
+ul li {
+  padding: .4rem 0 0 1.4rem;
+  width: 100%;
+  height: 1.8rem;
+  color: #9D9BAC;
+}
+
+li:hover {
+  color: white;
+  background-color: #707E94;
+  border-left: 3px solid #55B9FB;
+}
+
+.nav__checkboxes {
+    display: block;
+    position: relative;
+    padding-left: 1rem;
+    cursor: pointer;
+    color: #9D9BAC;
+}
+
+.nav__checkboxes:hover input ~ .checkbox__title {
+  color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox__title:after {
+    /*content: "";
+    position: absolute;
+    display: none;*/
+}
+
+ /*Show the checkmark when checked */
+.nav__checkboxes input:checked ~ .checkbox__title:after {
+    display: block;
+}
+
+ /*Style the checkmark/indicator */
+.nav__checkboxes .checkbox__title:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+main {
+  float: right;
+  vertical-align: top;
+  margin-left: -4px;
+  width: calc(100% - 156px);
+  height: 100vh;
+  background-color: lavender;
+}
+
+header {
+  background-color: white;
+}
+
+.search {
+  height: 5rem;
+  border-bottom: 1px solid #999;
+}
+
+.title {
+  height: 7rem;
+  background-color: lightcyan;
+}
+
+.title__left {
+  width: 60%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.title__right {
+  width: 40%;
+}
+
+.links {
+  height: 5rem;
+  border-bottom: 1px solid #999;
+}
+
+.links p {
+  font-size: 0.9rem;
+  padding-top: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: .8rem;
+  color: #9D9BAC;
+  font-weight: bold;
+}
+
+.links p:hover {
+  color: black;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #55B9FB;
+}
