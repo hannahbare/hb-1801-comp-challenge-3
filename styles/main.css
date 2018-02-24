@@ -1,0 +1,343 @@
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-weight: bold;
+}
+.sidebar {
+  display: inline-block;
+  height: 100vh;
+  width: 12.5rem;
+  background-color: #354051;;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.sidebar__top {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #303949;
+}
+
+.nav__img {
+  height: 5rem;
+  margin: 2rem 2.6rem 0.4rem;
+  border-radius: 50%;
+}
+
+.nav__name {
+  color: #9D9BAC;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav__art {
+  padding: 1rem 0;
+  border-bottom: 3px solid #303949;
+}
+
+.nav__title {
+  padding: .6rem 1rem .2rem 1.4rem;
+  color: #707E94;
+  font-weight: bold;
+}
+
+.nav__li {
+  width: 100%;
+  height: 1.8rem;
+  padding: 0.4rem 0 0 1.4rem;
+  color: #9D9BAC;
+}
+
+.nav__li:hover {
+  padding-left: 1.1rem;
+  color: white;
+  background-color: #707E94;
+  border-left: 3px solid #55B9FB;
+  width: 9.4rem;
+  cursor: pointer;
+}
+
+.nav__checkboxes {
+  position: relative;
+  display: block;
+  padding: 0.4rem 0 0 1rem;
+  color: #9D9BAC;
+  cursor: pointer;
+}
+
+.nav__checkboxes:hover input ~ .checkbox__title {
+  color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox__title:after {
+    /*content: "";
+    position: absolute;
+    display: none;*/
+}
+
+ /*Show the checkmark when checked */
+.nav__checkboxes input:checked ~ .checkbox__title:after {
+    display: block;
+}
+
+ /*Style the checkmark/indicator */
+.nav__checkboxes .checkbox__title:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+main {
+  height: 100vh;
+  width: calc(100% - 200px);
+  background-color: #e7eff1;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background-color: white;
+}
+
+.search {
+  border-bottom: 2px solid  #b3b5bc;
+  height: 4rem;
+}
+
+.title {
+  position: relative;
+  height: 5rem;
+  padding-top: 2rem;
+  margin-left: 2.8rem;
+}
+
+.title__left {
+  display: inline-block;
+}
+
+.title__left h1 {
+  padding-bottom: 0.5rem;
+  color: #303949;
+  font-size: 1.8rem;
+}
+
+.title__left--details {
+  color: #999;
+}
+
+.title__detail--city {
+  display: inline-block;
+  padding: 0 0.6rem;
+}
+
+.title__location {
+  display: inline-block;
+  font-size: 0.8rem
+}
+
+
+.title__detail--link {
+  display: inline-block;
+  padding-left: 0.6rem;
+  color: #1DABEC;
+  cursor: pointer;
+}
+
+.title__detail--link:hover {
+  color: #4D72BE;
+}
+
+.title__dot {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.1rem;
+}
+
+.title__right {
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+}
+
+.title__right button {
+  height: 2rem;
+  border-radius: 50px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.links {
+  height: 4.2rem;
+  padding-left: 2.8rem;
+  border-bottom: 2px solid #b3b5bc;
+}
+
+.links__li {
+  display: inline-block;
+  margin: 1rem 2.8rem 0 0;
+  color: #9D9BAC;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.links__li:hover {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #55B9FB;
+  color: #303949;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GRAPHS__________________________*/
+
+.graphs__section {
+  position: relative;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #b3b5bc;
+  margin: 0 2.8rem;
+  height: 17rem;
+}
+
+.circle {
+  height: 8rem;
+  width: 8rem;
+  border: 0.7rem solid;
+  margin: 2.5rem 5% 0 0 ;
+  background-color: #e7eff1;
+  border-radius: 50%;
+}
+
+.circlegraph__one {
+  margin-left: 2rem;
+  display: inline-block;
+  border-color: #50B8BD #50B8BD #9D9BAC #50B8BD;
+}
+
+.circlegraph__two {
+  display: inline-block;
+  border-color: #9D9BAC #9D9BAC #9D9BAC #25A5FA;
+}
+
+.circlegraph__three {
+  display: inline-block;
+  border-color: #9D9BAC #9D9BAC #AC65B2 #9D9BAC;
+}
+
+.bar__graph {
+  position: absolute;
+  top: 2.2rem;
+  right: -0.2rem;
+  height: 10rem;
+  margin-right: 2rem;
+}
+
+.circle__graph--container {
+  padding-top: 2.2rem;
+}
+
+.circle__graph--num {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.circle__graph--text {
+  text-align: center;
+  font-size: 0.9rem
+}
+
+.graph__btn {
+  height: 2rem;
+  border-radius: 50px;
+  padding: 0 1.2rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.graph__btn--left {
+  margin-left: 17%;
+}
+
+.graph__btn--right {
+  margin-left: 37%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*colors*/
+/*#303949;
+#354051;
+/*#4D72BE;
+#8ABF3F;
+#4FBBBE;
+#1683BA;
+#1DABEC;
+#26A5F6;
+#55B9FB;
+#AEDFFB;
+#707E94;
+#7A89A2;
+#7B7E87;
+#999999;
+#9D9BAC;
+ #b3b5bc;-- bottom border
+#D9DEE4; --color of main background
+#F5F5F7;
+
+--graph one;
+#50B8BD
+#D9E4EA
+--graph two;
+#D9E4EA; 
+#25A5FA;
+--graph three;
+#AC65B2; 
+#D9E4EA;
+#F9DD34;
+#32B5F8;
+#E72267;
+#1DA78A;
+#E7EFF1 e4eaef--BACKGROUND COLOR!!*/

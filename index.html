@@ -1,11 +1,208 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-  <title>STATIC COMP #</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="reset.css">
+  <title>STATIC COMP #3</title> 
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fontello.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <meta name="viewport" content="width=device-width", initial-scale="1">
+  <title>Static Comp 3</title>
 </head>
 <body>
 
+
+
+
+  <nav class="sidebar">
+    <article class="sidebar__top">
+      <img alt="Image of person" image of topic" src="imgs/cam.png" class="nav__img">
+      <h3 class="nav__name">Hannah Bare <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </h3>
+    </article>
+    <article class="nav__art">
+      <h3 class="nav__title">Main</h3>
+      <ul>
+        <li class="nav__li">
+          <i class="icon-home:before"></i>
+          <i class="fa fa-home" aria-hidden="true"></i> Home
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-briefcase" aria-hidden="true"></i> Jobs
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Resume
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-tasks" aria-hidden="true"></i> Tasks
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+        </li>
+      </ul>
+    </article>
+    <article class="nav__art">
+      <h3 class="nav__title">Admin</h3>
+      <ul>
+        <li class="nav__li">
+          <i class="fa fa-user" aria-hidden="true"></i> Users
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-comments-o" aria-hidden="true"></i> Workflows
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-briefcase" aria-hidden="true"></i> Job Boards
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-share-square-o" aria-hidden="true"></i> Social
+        </li>
+      </ul>
+    </article>
+    <article class="nav__art nav__categories">
+      <h3 class="nav__title">Categories</h3>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">
+        Admin</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Design</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Executive</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Human Resources</span>
+      </label>
+    </article>
+  </nav>
+
+
+  <main>
+    <header>
+      <section class="search">
+
+        <p role="icon" class="search__menu">
+        </p>
+
+        <p role="icon" class="search__bar">
+        </p>
+
+        <p class="search__adduser">
+        </p>
+
+        <p class="search__calendar">
+        </p>
+        
+        <p class="search__settings">
+        </p>
+      </section>
+
+
+
+
+      <section class="title">
+        <div class="title__left">
+          <h1>Customer Service Representative</h1>
+          <div class="title__left--details">
+            <div class="title__location"><i class="fas fa-map-marker"></i></div>
+            <p class="title__detail--city">San Francisco, CA</p>
+            <div class="title__dot"><i class="fas fa-circle"></i></div>
+            <p class="title__detail--link">Preview this post</p>
+          </div>
+        </div>
+        
+        <div class="title__right">
+          <button>OPEN</button>
+          <button>but</button>
+          <button>but</button>
+          <button>but</button>
+        </div>
+      </section>
+      <section class="links">
+        <ul>
+          <li class="links__li">SUMMARY</li>
+          <li class="links__li">APPLICANTS</li>
+          <li class="links__li">JOB BOARD</li>
+          <li class="links__li">INTERVIEWS</li>
+          <li class="links__li">ACTIVITY</li>
+          <li class="links__li">BROADCAST</li>
+          <li class="links__li">NOTIFICATIONS</li>
+        </ul>
+      </section>
+    </header>
+    
+    <section class="graphs__section">
+      <article class="graph__imgs">
+
+        <ul class="circle__graph">
+          <li class="circle circlegraph__one">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">3,154</div>
+              <div class="circle__graph--text">APPLICANTS</div>
+            </p>
+          </li>
+          <li class="circle circlegraph__two">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">1,546</div>
+              <div class="circle__graph--text">INTERVIEWS</div>
+            </p>
+          </li>
+          <li class="circle circlegraph__three">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">912</div>
+              <div class="circle__graph--text">FORWARDS</div>
+            </p>
+          </li>
+        </ul>
+      </article>
+        <img src="imgs/bar-chart.png" class="bar__graph">
+      <article class="graph__btns">
+        <button class="graph__btn graph__btn--left">TOTALS - Out of 5,231 views</button>
+        <button class="graph__btn graph__btn--right">APPLICANTS/DAY</button>
+      </article>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="details">
+      <article></article>
+      <article>
+        <div></div>
+        <div>
+          <section></section>
+          <section></section>
+          <section></section>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
