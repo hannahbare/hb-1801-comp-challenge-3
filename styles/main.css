@@ -116,7 +116,7 @@ header {
 }
 
 .search {
-  border-bottom: 2px solid  #b3b5bc;
+  border-bottom: 2px solid  #D9DDE3;
   height: 4rem;
 }
 
@@ -205,7 +205,7 @@ header {
 .links {
   height: 4.2rem;
   padding-left: 2.8rem;
-  border-bottom: 2px solid #b3b5bc;
+  border-bottom: 2px solid #D9DDE3;
 }
 
 .links__li {
@@ -248,7 +248,7 @@ header {
 .graphs__section {
   position: relative;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #b3b5bc;
+  border-bottom: 2px solid #D9DDE3;
   margin: 0 2.8rem;
   height: 17rem;
 }
@@ -265,17 +265,17 @@ header {
 .circlegraph__one {
   margin-left: 2rem;
   display: inline-block;
-  border-color: #50B8BD #50B8BD #9D9BAC #50B8BD;
+  border-color: #50B8BD #50B8BD #D9DDE3 #50B8BD;
 }
 
 .circlegraph__two {
   display: inline-block;
-  border-color: #9D9BAC #9D9BAC #9D9BAC #25A5FA;
+  border-color: #D9DDE3 #D9DDE3 #D9DDE3 #25A5FA;
 }
 
 .circlegraph__three {
   display: inline-block;
-  border-color: #9D9BAC #9D9BAC #AC65B2 #9D9BAC;
+  border-color: #D9DDE3 #D9DDE3 #AC65B2 #D9DDE3;
 }
 
 .bar__graph {
@@ -354,12 +354,12 @@ header {
   font-weight: bold;
   padding: 2rem 1rem 2rem 2rem;
   width: 9rem;
-  border-bottom: 1px solid #b3b5bc;
+  border-bottom: 1px solid #D9DDE3;
 }
 
 .row2 {
   padding: 2rem 2rem 2rem 1rem;
-  border-bottom: 1px solid #b3b5bc;
+  border-bottom: 1px solid #D9DDE3;
 }
 
 /*#details__img--container {
@@ -392,7 +392,11 @@ header {
   width: 24%;
 }
 
-.social__section button {
+.social__btns {
+  height: 13.25rem;
+}
+
+.social__btns--three {
   height: 3.6rem;
   width: 100%;
   margin-bottom: 1.25rem;
@@ -401,19 +405,18 @@ header {
   color: white;
   font-size: 1.1rem;
   text-align: left;
+  cursor: pointer;
 }
 
-
-
-.facebook {
+#btn__facebook {
   background-color: #4D72BE;
 }
 
-.twitter {
+#btn__twitter {
   background-color: #26A5F6;
 }
 
-.linkedin {
+#btn__linkedin {
   background-color: #1683BA;
 }
 
@@ -423,6 +426,74 @@ header {
   float: left;
   padding: 0 3rem 0 1.4rem;
 }
+
+.social__input--section {
+  height: 9.5rem;
+}
+
+.social__section--one,
+.social__section--two {
+  border-bottom: 2px solid #D9DDE3;
+}
+
+.social__title {
+  color: #354051;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
+}
+
+.fa-paper-plane,
+.fa-camera-retro,
+.fa-globe {
+  padding-right: 1rem;
+}
+
+.social__para {
+  color: #999;
+  font-size: 0.8rem;
+  padding: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.social__input {
+  font-size: 0.8rem;
+  height: 2rem;
+  background-color: white;
+  padding-left: 1rem;
+  width: 14rem;
+  border-radius: 3px;
+  border-right: none;
+  border-color: #D9DEE4;
+}
+
+.social__input::placeholder {
+  color: #707E94;
+}
+
+#social__input--third {
+  width: 18rem;
+}
+
+.social__btn--copy {
+  font-size: 0.8rem;
+  height: 2.38rem;
+  color: white;
+  background-color: #4FBBBE;
+  width: 4rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
 
 /*colors*/
 /*#303949;
