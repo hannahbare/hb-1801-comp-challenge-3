@@ -11,7 +11,7 @@ body {
 }
 .sidebar {
   display: inline-block;
-  height: 100vh;
+  height: 175vh;
   width: 12.5rem;
   background-color: #354051;;
   font-family: 'Titillium Web', sans-serif;
@@ -23,8 +23,8 @@ body {
 }
 
 .nav__img {
-  height: 5rem;
-  margin: 2rem 2.6rem 0.4rem;
+  height: 6rem;
+  margin: 2rem 3.25rem 1rem;
   border-radius: 50%;
 }
 
@@ -33,6 +33,10 @@ body {
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+}
+
+.nav__name:hover {
+  color: white;
 }
 
 .nav__art {
@@ -58,7 +62,7 @@ body {
   color: white;
   background-color: #707E94;
   border-left: 3px solid #55B9FB;
-  width: 9.4rem;
+  width: 11.2rem;
   cursor: pointer;
 }
 
@@ -100,7 +104,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   width: calc(100% - 200px);
   background-color: #e7eff1;
   float: right;
@@ -297,13 +301,56 @@ button {
 }
 
 
+/*TABLE```````````````````````````````````````````````````*/
 
+.details__table {
+  margin: 2.8rem;
+  height: 30rem;
+  width: 60%;
+  background-color: #f5f5f7;
+  color: #6C7C95;
+}
 
+.details__title {
+  background-color: #6C7C95;
+  color: white;
+}
 
+#details__edit {
+  background-color: #7C8CA3;
+}
 
+.row1 {
+  font-weight: bold;
+  padding: 2rem 1rem 2rem 2rem;
+  width: 9rem;
+  border-bottom: 1px solid #b3b5bc;
+}
 
+.row2 {
+  padding: 2rem 2rem 2rem 1rem;
+  border-bottom: 1px solid #b3b5bc;
+}
 
+/*#details__img--container {
+  display: inline-block;
+  border-bottom: 1px solid #b3b5bc;
+}*/
 
+/*#details__img {
+  height: 3rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}*/
+
+.lastrow {
+  border-bottom: none;
+}
+
+#details__money {
+  color: #303949;
+  font-weight: bold;
+}
 
 
 
