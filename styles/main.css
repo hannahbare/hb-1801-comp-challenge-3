@@ -12,7 +12,7 @@ body {
 .sidebar {
   display: inline-block;
   height: 100vh;
-  width: 11rem;
+  width: 12.5rem;
   background-color: #354051;;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -54,6 +54,7 @@ body {
 }
 
 .nav__li:hover {
+  padding-left: 1.1rem;
   color: white;
   background-color: #707E94;
   border-left: 3px solid #55B9FB;
@@ -100,7 +101,7 @@ body {
 
 main {
   height: 100vh;
-  width: calc(100% - 176px);
+  width: calc(100% - 200px);
   background-color: #e7eff1;
   float: right;
   font-family: 'Source Sans Pro', sans-serif;
@@ -187,7 +188,7 @@ button {
 
 .links__li {
   display: inline-block;
-  margin: 1.2rem 2.8rem 0 0;
+  margin: 1rem 2.8rem 0 0;
   color: #9D9BAC;
   cursor: pointer;
   font-size: 1rem;
@@ -200,43 +201,67 @@ button {
   color: #303949;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*GRAPHS__________________________*/
 
-.graphs {
+.graphs__section {
+  position: relative;
   padding-bottom: 2rem;
   border-bottom: 2px solid #b3b5bc;
   margin: 0 2.8rem;
-}
-
-.graph__left {
-  display: inline-block;
-  width: 55%;
-}
-
-.circle__graph {
-  height: 14rem;
+  height: 17rem;
 }
 
 .circle {
-  display: inline-block;
   height: 8rem;
   width: 8rem;
   border: 0.7rem solid;
-  margin: 3rem 5% 0 0 ;
+  margin: 2.5rem 5% 0 0 ;
   background-color: #e7eff1;
   border-radius: 50%;
 }
 
 .circlegraph__one {
+  margin-left: 2rem;
+  display: inline-block;
   border-color: #50B8BD #50B8BD #9D9BAC #50B8BD;
 }
 
 .circlegraph__two {
+  display: inline-block;
   border-color: #9D9BAC #9D9BAC #9D9BAC #25A5FA;
 }
 
 .circlegraph__three {
+  display: inline-block;
   border-color: #9D9BAC #9D9BAC #AC65B2 #9D9BAC;
+}
+
+.bar__graph {
+  position: absolute;
+  top: 2.2rem;
+  right: -0.2rem;
+  height: 10rem;
+  margin-right: 2rem;
 }
 
 .circle__graph--container {
@@ -255,37 +280,20 @@ button {
   font-size: 0.9rem
 }
 
-
-
-
-
-
-
-
-
-
-.graph__right {
-  float: right;
-}
-
-.bar__graph {
-  width: 25rem;
-  margin: 2.2rem 0 1rem;
-}
-
 .graph__btn {
   height: 2rem;
   border-radius: 50px;
   padding: 0 1.2rem;
+  margin-top: 2rem;
   font-size: 0.9rem;
 }
 
 .graph__btn--left {
-  margin-left: 21%;
+  margin-left: 17%;
 }
 
 .graph__btn--right {
-  margin-left: 32%;
+  margin-left: 37%;
 }
 
 
