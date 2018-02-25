@@ -89,20 +89,18 @@
     <header>
       <section class="search">
 
-        <p role="icon" class="search__menu">
-        </p>
-
-        <p role="icon" class="search__bar">
-        </p>
-
-        <p class="search__adduser">
-        </p>
-
-        <p class="search__calendar">
-        </p>
+        <p role="icon" class="icon" id="search__menu--icon"><i class="fas fa-bars"></i></p>
         
-        <p class="search__settings">
-        </p>
+        <form class="search__bar--form">
+          <p role="icon" class="icon" id="search__bar--icon"><i class="fas fa-search"></i></p>
+          <input type="text" id="search__bar--input" aria-label="Search bar. Insert text to search for a job, task or resume." placeholder="Search for a job, task or resume">
+        </form>
+        
+        <p class="icon" id="search__adduser--icon"><i class="fas fa-user-plus"></i></p>
+
+        <p class="icon" id="search__calendar--icon"><i class="fas fa-calendar-alt"></i></p>
+        
+        <p class="icon" id="search__settings--icon"><i class="fas fa-ellipsis-h"></i></p>
       </section>
 
 
@@ -192,10 +190,14 @@
 
 
     <section class="details">
+
       <table class="details__table">
         <tr>
-          <td class="details__title row1">JOB DESCRIPTION</td>
-          <td class="details__title row2" id="details__edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i> EDIT</td>
+          <td class="details__title row1">JOB DESCRIPTION 
+          </td>
+          <td class="details__title row2">
+            <button id="details__edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i>EDIT</button>
+          </td>
         </tr>
         <tr>
           <td class="row1">POSITION TITLE</td>

@@ -11,7 +11,7 @@ body {
 }
 .sidebar {
   display: inline-block;
-  height: 175vh;
+  height: 178vh;
   width: 12.5rem;
   background-color: #354051;;
   font-family: 'Titillium Web', sans-serif;
@@ -60,7 +60,7 @@ body {
 .nav__li:hover {
   padding-left: 1.1rem;
   color: white;
-  background-color: #707E94;
+  background-color: #303949;
   border-left: 3px solid #55B9FB;
   width: 11.2rem;
   cursor: pointer;
@@ -116,10 +116,64 @@ header {
 }
 
 .search {
+  display: grid;
+  grid-template-columns: 4.5rem auto 4rem 4rem 4rem;
   border-bottom: 2px solid  #D9DDE3;
-  height: 4rem;
+  height: 4.3rem;
+  
 }
 
+.icon {
+  font-size: 1.5rem;
+  color: #354051;
+  padding: 1.4rem 1rem;
+}
+
+.icon:hover {
+  background-color: #1DABEC;
+  color: white;
+}
+
+#search__bar--input {
+  height: 3.9rem;
+  border: none;
+  font-size: 1rem;
+  width: 40rem;
+}
+
+#search__menu--icon {
+  padding-right: 2.75rem;
+
+  border-right: 2px solid  #D9DDE3;
+}
+#search__adduser--icon {
+  padding-right: 2.75rem;
+
+  border-right: 2px solid  #D9DDE3;
+}
+
+#search__calendar--icon {
+  padding-right: 2.75rem;
+  border-right: 2px solid  #D9DDE3;
+}
+
+#search__settings--icon {
+  padding-right: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*################################################*/
 .title {
   position: relative;
   height: 5rem;
@@ -186,6 +240,11 @@ header {
   padding: 0 0.4rem;
   margin-left: 0.2rem;
   cursor: pointer;
+}
+
+.title__right button:hover {
+  background-color: #1DABEC;
+  color: white;
 }
 
 #title__right--open {
@@ -311,6 +370,11 @@ header {
   cursor: pointer;
 }
 
+.graph__btn:hover {
+  background-color: #1DABEC;
+  color: white;
+}
+
 .graph__btn--left {
   margin-left: 17%;
 }
@@ -328,7 +392,6 @@ header {
 }
 
 .details__table {
-  /*display: inline-block;*/
   margin: 2.8rem;
   height: 30rem;
   width: 65%;
@@ -343,11 +406,17 @@ header {
 
 #details__edit {
   background-color: #7C8CA3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .fa-pencil-alt {
   font-size: 0.8rem;
   vertical-align: top;
+  padding-right: 0.3rem;
 }
 
 .row1 {
