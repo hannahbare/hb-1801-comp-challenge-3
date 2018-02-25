@@ -11,8 +11,8 @@ body {
 }
 .sidebar {
   display: inline-block;
-  height: 178vh;
   width: 12.5rem;
+  height: 178vh;
   background-color: #354051;;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -24,15 +24,15 @@ body {
 
 .nav__img {
   height: 6rem;
-  margin: 2rem 3.25rem 1rem;
   border-radius: 50%;
+  margin: 2rem 3.25rem 1rem;
 }
 
 .nav__name {
   color: #9D9BAC;
+  cursor: pointer;
   font-weight: bold;
   text-align: center;
-  cursor: pointer;
 }
 
 .nav__name:hover {
@@ -62,11 +62,11 @@ body {
 }
 
 .nav__li:hover {
-  padding-left: 1.1rem;
-  color: white;
-  background-color: #303949;
-  border-left: 3px solid #55B9FB;
   width: 11.2rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid #55B9FB;
+  background-color: #303949;
+  color: white;
   cursor: pointer;
 }
 
@@ -79,9 +79,9 @@ body {
 }
 
 .nav__checkboxes:hover {
-  color: white;
   border-left: 4px solid #55B9FB;
   padding-left: 0.75rem;
+  color: white;
 }
 
 .checkbox__one {
@@ -89,10 +89,10 @@ body {
 }
 
 main {
-  height: 100%;
-  width: calc(100% - 200px);
-  background-color: #e7eff1;
   float: right;
+  width: calc(100% - 200px);
+  height: 100%;
+  background-color: #e7eff1;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -108,9 +108,9 @@ header {
 }
 
 .icon {
-  font-size: 1.5rem;
-  color: #354051;
   padding: 1.4rem 1rem;
+  color: #354051;
+  font-size: 1.5rem;
 }
 
 .icon:hover {
@@ -119,20 +119,18 @@ header {
 }
 
 #search__bar--input {
+  width: 40rem;
   height: 3.9rem;
   border: none;
   font-size: 1rem;
-  width: 40rem;
 }
 
 #search__menu--icon {
   padding-right: 2.75rem;
-
   border-right: 2px solid  #D9DDE3;
 }
 #search__adduser--icon {
   padding-right: 2.75rem;
-
   border-right: 2px solid  #D9DDE3;
 }
 
@@ -144,18 +142,6 @@ header {
 #search__settings--icon {
   padding-right: 3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*################################################*/
 .title {
@@ -189,7 +175,6 @@ header {
   font-size: 0.8rem
 }
 
-
 .title__detail--link {
   display: inline-block;
   padding-left: 0.6rem;
@@ -218,10 +203,10 @@ header {
 }
 
 .title__right button {
-  height: 2rem;
   width: 2rem;
-  border-radius: 50px;
+  height: 2rem;
   padding: 0 0.4rem;
+  border-radius: 50px;
   margin-left: 0.2rem;
   cursor: pointer;
 }
@@ -234,17 +219,7 @@ header {
 #title__right--open {
   width: 5rem;
 }
-
-
-
-
-
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-
-
-
 .links {
   height: 4.2rem;
   padding-left: 2.8rem;
@@ -265,40 +240,18 @@ header {
   border-bottom: 3px solid #55B9FB;
   color: #303949;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*GRAPHS__________________________*/
-
 .graphs__section {
   position: relative;
+  height: 17rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid #D9DDE3;
   margin: 0 2.8rem;
-  height: 17rem;
 }
 
 .circle {
-  height: 8rem;
   width: 8rem;
+  height: 8rem;
   border: 0.7rem solid;
   margin: 2.5rem 5% 0 0 ;
   background-color: #e7eff1;
@@ -306,9 +259,9 @@ header {
 }
 
 .circlegraph__one {
-  margin-left: 2rem;
   display: inline-block;
   border-color: #50B8BD #50B8BD #D9DDE3 #50B8BD;
+  margin-left: 2rem;
 }
 
 .circlegraph__two {
@@ -334,15 +287,15 @@ header {
 }
 
 .circle__graph--num {
+  padding-bottom: 0.4rem;
   font-family: 'Titillium Web', sans-serif;
   font-size: 2rem;
   text-align: center;
-  padding-bottom: 0.4rem;
 }
 
 .circle__graph--text {
+  font-size: 0.9rem;
   text-align: center;
-  font-size: 0.9rem
 }
 
 .graph__btn {
@@ -366,8 +319,6 @@ header {
 .graph__btn--right {
   margin-left: 37%;
 }
-
-
 /*TABLE```````````````````````````````````````````````````*/
 
 .details {
@@ -376,9 +327,9 @@ header {
 }
 
 .details__table {
-  margin: 2.8rem;
-  height: 30rem;
   width: 65%;
+  height: 30rem;
+  margin: 2.8rem;
   background-color: #f5f5f7;
   color: #6C7C95;
 }
@@ -389,42 +340,31 @@ header {
 }
 
 #details__edit {
-  background-color: #7C8CA3;
-  color: white;
   padding: 0.5rem 1rem;
   border: none;
+  background-color: #7C8CA3;
+  color: white;
   font-size: 0.9rem;
   font-weight: bold;
 }
 
 .fa-pencil-alt {
+  padding-right: 0.3rem;
   font-size: 0.8rem;
   vertical-align: top;
-  padding-right: 0.3rem;
 }
 
 .row1 {
-  font-weight: bold;
-  padding: 2rem 1rem 2rem 2rem;
   width: 9rem;
+  padding: 2rem 1rem 2rem 2rem;
   border-bottom: 1px solid #D9DDE3;
+  font-weight: bold;
 }
 
 .row2 {
   padding: 2rem 2rem 2rem 1rem;
   border-bottom: 1px solid #D9DDE3;
 }
-
-/*#details__img--container {
-  display: inline-block;
-  border-bottom: 1px solid #b3b5bc;
-}*/
-
-/*#details__img {
-  height: 3rem;
-  border-radius: 50%;
-  vertical-align: middle;
-}*/
 
 .lastrow {
   border-bottom: none;
@@ -436,13 +376,11 @@ header {
 }
 
 /*+++++++++++++++++++++++++++++++*/
-
-
 .social__section {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2.8rem;
   width: 24%;
+  padding-top: 2.8rem;
 }
 
 .social__btns {
@@ -450,15 +388,15 @@ header {
 }
 
 .social__btns--three {
-  height: 3.6rem;
   width: 100%;
-  margin-bottom: 1.25rem;
+  height: 3.6rem;
   border: none;
   border-radius: 2px;
+  margin-bottom: 1.25rem;
   color: white;
+  cursor: pointer;
   font-size: 1.1rem;
   text-align: left;
-  cursor: pointer;
 }
 
 #btn__facebook {
@@ -490,10 +428,10 @@ header {
 }
 
 .social__title {
+  margin-top: 2.5rem;
   color: #354051;
   font-size: 1rem;
   font-weight: bold;
-  margin-top: 2.5rem;
 }
 
 .fa-paper-plane,
@@ -503,9 +441,9 @@ header {
 }
 
 .social__para {
+  padding: 1rem 0;
   color: #999;
   font-size: 0.8rem;
-  padding: 1rem 0;
 }
 
 form {
@@ -515,14 +453,14 @@ form {
 }
 
 .social__input {
-  font-size: 0.8rem;
-  height: 2rem;
-  background-color: white;
-  padding-left: 1rem;
   width: 14rem;
+  height: 2rem;
+  padding-left: 1rem;
+  background-color: white;
   border-radius: 3px;
   border-right: none;
   border-color: #D9DEE4;
+  font-size: 0.8rem;
 }
 
 .social__input::placeholder {
@@ -534,19 +472,15 @@ form {
 }
 
 .social__btn--copy {
-  font-size: 0.8rem;
-  height: 2.38rem;
-  color: white;
-  background-color: #4FBBBE;
   width: 4rem;
-  border-radius: 3px;
+  height: 2.38rem;
   border: none;
+  border-radius: 3px;
+  color: white;
   cursor: pointer;
+  background-color: #4FBBBE;
+  font-size: 0.8rem;
 }
-
-
-
-
 
 /*colors*/
 /*#303949;
