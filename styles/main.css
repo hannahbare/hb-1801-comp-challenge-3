@@ -44,6 +44,10 @@ body {
   border-bottom: 3px solid #303949;
 }
 
+.nav__categories {
+  border-bottom: none;
+}
+
 .nav__title {
   padding: .6rem 1rem .2rem 1.4rem;
   color: #707E94;
@@ -69,38 +73,19 @@ body {
 .nav__checkboxes {
   position: relative;
   display: block;
-  padding: 0.4rem 0 0 1rem;
+  padding: 0.4rem 0 0.4rem 1rem;
   color: #9D9BAC;
   cursor: pointer;
 }
 
-.nav__checkboxes:hover input ~ .checkbox__title {
+.nav__checkboxes:hover {
   color: white;
+  border-left: 4px solid #55B9FB;
+  padding-left: 0.75rem;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkbox__title:after {
-    /*content: "";
-    position: absolute;
-    display: none;*/
-}
-
- /*Show the checkmark when checked */
-.nav__checkboxes input:checked ~ .checkbox__title:after {
-    display: block;
-}
-
- /*Style the checkmark/indicator */
-.nav__checkboxes .checkbox__title:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+.checkbox__one {
+  color: #F9DD34;
 }
 
 main {
@@ -120,7 +105,6 @@ header {
   grid-template-columns: 4.5rem auto 4rem 4rem 4rem;
   border-bottom: 2px solid  #D9DDE3;
   height: 4.3rem;
-  
 }
 
 .icon {
