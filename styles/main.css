@@ -9,7 +9,7 @@ body {
 .sidebar {
   display: inline-block;
   width: 12.5rem;
-  height: 178vh;
+  height: 100vh;
   background-color: #354051;;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -60,7 +60,7 @@ body {
 
 .nav__li:hover {
   width: 11.2rem;
-  padding-left: 1.1rem;
+  padding-left: 1.2rem;
   border-left: 3px solid #55b9fb;
   background-color: #303949;
   color: #fff;
@@ -84,7 +84,6 @@ body {
 main {
   float: right;
   width: calc(100% - 200px);
-  height: 100%;
   background-color: #e7eff1;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -97,7 +96,7 @@ header {
   display: grid;
   grid-template-columns: 4.5rem auto 4rem 4rem 4rem;
   border-bottom: 2px solid #d9dde3;
-  height: 4.3rem;
+  height: 4.4rem;
 }
 
 .icon {
@@ -354,7 +353,7 @@ header {
 }
 
 .row1 {
-  width: 9rem;
+  width: 14rem;
   padding: 2rem 1rem 2rem 2rem;
   border-bottom: 1px solid #D9DDE3;
   font-weight: bold;
@@ -402,19 +401,18 @@ header {
   background-color: #4d72be;
 }
 
+#fb__icon,
+#twitter__icon,
+#linkedin__icon {
+  margin: 0 3rem 0 1rem;
+}
+
 #btn__twitter {
   background-color: #26a5f6;
 }
 
 #btn__linkedin {
   background-color: #1683ba;
-}
-
-.fa-facebook-f,
-.fa-twitter,
-.fa-linkedin {
-  float: left;
-  padding: 0 3rem 0 1.4rem;
 }
 
 .social__input--section {
@@ -436,11 +434,12 @@ header {
 .fa-paper-plane,
 .fa-camera-retro,
 .fa-globe {
-  padding-right: 1rem;
+  margin-right: 1rem;
+  height: 1rem;
 }
 
 .social__para {
-  padding: 1rem 0;
+  padding: 1.4rem 0;
   color: #7b7e87;
   font-size: 0.8rem;
 }
@@ -452,8 +451,9 @@ form {
 }
 
 .social__input {
-  width: 14rem;
-  height: 2rem;
+  width: 78%;
+  min-width: 8rem;
+  height: 2.4rem;
   padding-left: 1rem;
   background-color: #fff;
   border-radius: 3px;
@@ -480,6 +480,8 @@ form {
   background-color: #4fbbbe;
   font-size: 0.8rem;
 }
+
+
 
 /*colors*/
 /*#303949;
