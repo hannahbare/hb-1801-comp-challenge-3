@@ -239,52 +239,54 @@ header {
   border-bottom: 3px solid #55B9FB;
   color: #303949;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*GRAPHS__________________________*/
 .graphs__section {
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  height: 17rem;
-  padding-bottom: 2rem;
+  justify-content: space-around;
   border-bottom: 2px solid #D9DDE3;
-  margin: 0 2.8rem;
+  margin: 2.8rem;
 }
 
 .circle__graph {
-  display: inline;
+  display: flex;
+  padding-top: 1rem;
 }
 
 .circle {
-  width: 8rem;
-  height: 8rem;
+  width: 11rem;
+  height: 8.5rem;
   border: 0.7rem solid;
-  margin: 2.5rem 5% 0 0 ;
   background-color: #e7eff1;
   border-radius: 50%;
 }
 
 .circlegraph__one {
-  display: inline-block;
+  margin-right: 10%;
   border-color: #50b8bd #50b8bd #D9DDE3 #50b8bd;
-  margin-left: 2rem;
 }
 
 .circlegraph__two {
-  display: inline-block;
+  margin-right: 10%;
   border-color: #d9dde3 #d9dde3 #d9dde3 #25a5fa;
 }
 
 .circlegraph__three {
-  display: inline-block;
   border-color: #d9dde3 #d9dde3 #ac65b2 #d9dde3;
-}
-
-.bar__graph {
-  position: absolute;
-  top: 2.2rem;
-  right: -0.2rem;
-  height: 60%;
-  margin-right: 2rem;
 }
 
 .circle__graph--container {
@@ -307,9 +309,8 @@ header {
   height: 2rem;
   border-radius: 50px;
   padding: 0 1.2rem;
-  margin-top: 3rem;
   font-size: 0.9rem;
-  color: #7b7e87;;
+  color: #7b7e87;
   cursor: pointer;
 }
 
@@ -319,14 +320,47 @@ header {
 }
 
 .graph__btn--left {
-  margin-left: 23%;
+  margin: 2.5rem 0 3rem 30%;
+}
+
+.bar__graph {
+  height: 11rem;
+  margin-left: 1rem;
 }
 
 .graph__btn--right {
-  margin-left: 17%;
-  position: absolute;
-  top: 11rem;
+  margin: 1rem 0 0 30%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*TABLE```````````````````````````````````````````````````*/
 
 .details {
@@ -406,7 +440,7 @@ header {
 }
 
 .social__btns {
-  height: 13.25rem;
+  height: 11.25rem;
 }
 
 .social__btns--three {
@@ -440,7 +474,7 @@ header {
 }
 
 .social__input--section {
-  height: 9.5rem;
+  height: 10.5rem;
 }
 
 .social__section--one,
@@ -506,6 +540,10 @@ form {
 }
 
 @media (max-width: 1200px) {
+/*  .circle__graph--section {
+    margin-left: auto;
+  }
+
   .circle {
     margin: 2.5rem 2% 0 0;
   }
@@ -515,12 +553,12 @@ form {
   }
 
   .graph__btn--left {
-    margin-left: 12%;
+    margin-left: 14%;
   }
 
   .graph__btn--right {
-    margin-left: 33%;
-  }
+    top: 28rem;
+  }*/
 
   #fb__icon,
   #twitter__icon,
@@ -537,7 +575,7 @@ form {
   }
 }
 
-@media (max-width: 1140px) {
+/*@media (max-width: 1140px) {
   .graphs__section {
     height: 32rem;
   }
@@ -546,7 +584,7 @@ form {
     position: relative;
     height: 41%;
   }
-}
+}*/
 
 /*colors*/
 /*#303949;
