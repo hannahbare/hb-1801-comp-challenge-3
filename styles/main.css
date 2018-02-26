@@ -113,7 +113,7 @@ header {
 }
 
 #search__bar--input {
-  width: 40rem;
+  width: 80%;
   height: 3.9rem;
   border: none;
   font-size: 1rem;
@@ -193,7 +193,7 @@ header {
 .title__right {
   position: absolute;
   top: 3rem;
-  right: 7rem;
+  right: 2.8rem;
 }
 
 .green-dot {
@@ -241,11 +241,17 @@ header {
 }
 /*GRAPHS__________________________*/
 .graphs__section {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   height: 17rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid #D9DDE3;
   margin: 0 2.8rem;
+}
+
+.circle__graph {
+  display: inline;
 }
 
 .circle {
@@ -277,7 +283,7 @@ header {
   position: absolute;
   top: 2.2rem;
   right: -0.2rem;
-  height: 10rem;
+  height: 60%;
   margin-right: 2rem;
 }
 
@@ -313,23 +319,25 @@ header {
 }
 
 .graph__btn--left {
-  margin-left: 17%;
+  margin-left: 23%;
 }
 
 .graph__btn--right {
-  margin-left: 37%;
+  margin-left: 17%;
+  position: absolute;
+  top: 11rem;
 }
 /*TABLE```````````````````````````````````````````````````*/
 
 .details {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .details__table {
   width: 65%;
   height: 30rem;
-  margin: 2.8rem;
+  margin: 2.8rem 4% 2.8rem 2.8rem;
   background-color: #f5f5f7;
   color: #6c7c95;
 }
@@ -420,7 +428,7 @@ header {
 #fb__icon,
 #twitter__icon,
 #linkedin__icon {
-  margin: 0 3rem 0 1rem;
+  margin: 0 19% 0 1rem;
 }
 
 #btn__twitter {
@@ -487,7 +495,7 @@ form {
 }
 
 .social__btn--copy {
-  width: 4rem;
+  width: 21%;
   height: 2.38rem;
   border: none;
   border-radius: 3px;
@@ -497,7 +505,48 @@ form {
   font-size: 0.8rem;
 }
 
+@media (max-width: 1200px) {
+  .circle {
+    margin: 2.5rem 2% 0 0;
+  }
 
+  .bar__graph {
+    right: -2.2rem;
+  }
+
+  .graph__btn--left {
+    margin-left: 12%;
+  }
+
+  .graph__btn--right {
+    margin-left: 33%;
+  }
+
+  #fb__icon,
+  #twitter__icon,
+  #linkedin__icon {
+    margin: 0 12% 0 1rem;
+  }
+
+  .social__input {
+    width: 72%;
+  }
+
+  #social__input--third {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .graphs__section {
+    height: 32rem;
+  }
+
+  .bar__graph {
+    position: relative;
+    height: 41%;
+  }
+}
 
 /*colors*/
 /*#303949;
