@@ -262,7 +262,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 2.8rem;
+  margin: 2.8rem 2.8rem 0 2.8rem;
   border-bottom: 2px solid #d9dde3;
 }
 
@@ -453,6 +453,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 24%;
+  min-width: 13rem;
   padding-top: 2.8rem;
 }
 
@@ -579,9 +580,13 @@ form {
 
 
 @media (max-width: 1200px) {
+  .bar__graph--section {
+    height: 20rem;
+  }
 
-
-
+  .graphs__section { 
+    height: 34rem;
+  }
 
   #fb__icon,
   #twitter__icon,
@@ -598,16 +603,80 @@ form {
   }
 }
 
+@media (max-width: 1118px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 9rem;
+    padding: 3rem 0 4rem 2.8rem;
+    border-bottom: 2px solid #D9DDE3;
+  }
+
+  .links__li {
+    margin: 1rem 2.8rem 0 0;
+    color: #9d9bac;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .links__li:hover {
+    padding-bottom: 0;
+    color: #55B9FB;
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 1031px) {
+  .details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .details__table {
+    width: 90%;
+    min-width: 20rem; 
+}
+
+  .social__section {
+    justify-content: space-around;
+    width: 65%;
+    min-width: 20rem;
+    padding-top: 2rem;
+  }
+
+  .social__btns {
+    height: 15.25rem;
+  }
+  #fb__icon,
+  #twitter__icon,
+  #linkedin__icon {
+    margin: 0 12% 0 25%;
+  }
+}
 
 
+@media (max-width: 960px) {
+  .title {
+    height: 8rem;
+  }
 
+  .title__left {
+    margin-top: 4rem;
+  }
 
+  .title__right {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+}
 
-
-
-
-
-
+@media (max-width: 765px) {
+  
+}
 
 
 
