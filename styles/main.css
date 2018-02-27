@@ -103,7 +103,7 @@ header {
 
 .icon {
   padding: 1.4rem 1rem;
-  color: #7b7e87;;
+  color: #7b7e87;
   font-size: 1.5rem;
 }
 
@@ -141,7 +141,6 @@ header {
   padding-right: 3rem;
 }
 
-/*################################################*/
 .title {
   position: relative;
   height: 5rem;
@@ -218,7 +217,7 @@ header {
 #title__right--open {
   width: 5rem;
 }
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .links {
   display: flex;
   flex-direction: row;
@@ -253,20 +252,6 @@ header {
 .nav__li--title {
   padding-left: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*GRAPHS__________________________*/
 
 .graphs__section { 
   display: flex;
@@ -361,35 +346,6 @@ header {
   margin: 2.2rem auto 3rem auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*TABLE```````````````````````````````````````````````````*/
-
 .details {
   display: flex;
   flex-wrap: wrap;
@@ -458,7 +414,6 @@ header {
   font-weight: bold;
 }
 
-/*+++++++++++++++++++++++++++++++*/
 .social__section {
   display: flex;
   flex-wrap: wrap;
@@ -567,28 +522,6 @@ form {
   font-size: 0.8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
   .bar__graph--section {
     height: 20rem;
@@ -662,7 +595,6 @@ form {
     margin: 0 12% 0 25%;
   }
 }
-
 
 @media (max-width: 960px) {
   .title {
@@ -766,70 +698,5 @@ form {
   #twitter__icon, 
   #linkedin__icon {
     margin-left: 17%;
+  }
 }
-
-
-
-
-.row1 1rem
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*colors*/
-/*#303949;
-#354051;
-/*#4D72BE;
-#8ABF3F;
-#4FBBBE;
-#1683BA;
-#1DABEC;
-#26A5F6;
-#55B9FB;
-#AEDFFB;
-#707E94;
-#7A89A2;
-#7B7E87;
-#999999;
-#9D9BAC;
- #b3b5bc;-- bottom border
-#D9DEE4; --color of main background
-#F5F5F7;
-
---graph one;
-#50B8BD
-#D9E4EA
---graph two;
-#D9E4EA; 
-#25A5FA;
---graph three;
-#AC65B2; 
-#D9E4EA;
-#F9DD34;
-#32B5F8;
-#E72267;
-#1DA78A;
-#E7EFF1 e4eaef--BACKGROUND COLOR!!*/
