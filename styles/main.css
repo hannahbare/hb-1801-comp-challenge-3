@@ -605,20 +605,7 @@ form {
 
 @media (max-width: 1118px) {
   .links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     height: 9rem;
-    padding: 3rem 0 4rem 2.8rem;
-    border-bottom: 2px solid #D9DDE3;
-  }
-
-  .links__li {
-    margin: 1rem 2.8rem 0 0;
-    color: #9d9bac;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
   }
 
   .links__li:hover {
