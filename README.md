@@ -1,1 +1,1 @@
-# hb-1801-comp-challenge-3
+# hb-comp-challenge-3
