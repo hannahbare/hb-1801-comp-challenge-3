@@ -15,7 +15,7 @@
   <nav class="sidebar">
     <article class="sidebar__top">
       <img alt="Image of person" image of topic" src="imgs/cam.png" class="nav__img">
-      <h3 class="nav__name">Hannah Bare <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      <h3 class="nav__name"> The Rock<i class="fa fa-chevron-down" aria-hidden="true"></i>
       </h3>
     </article>
     <article class="nav__art">
@@ -113,8 +113,9 @@
           <button><i class="fas fa-trash-alt" aria-label="Delete icon"></i></button>
         </div>
       </section>
-      <section class="links">
-        <ul>
+
+      <section>
+        <ul class="links">
           <li class="links__li">SUMMARY</li>
           <li class="links__li">APPLICANTS</li>
           <li class="links__li">JOB BOARD</li>
@@ -129,7 +130,8 @@
 <!--     ~~~~~~~~~~~~~~~~~~~~~~GRAPHS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     
     <section class="graphs__section">
-      <article class="graph__imgs">
+
+      <article class="circle__graph--section">
         <ul class="circle__graph">
           <li class="circle circlegraph__one">
             <p class="circle__graph--container">
@@ -150,12 +152,21 @@
             </p>
           </li>
         </ul>
+      <button class="graph__btn graph__btn--left">TOTALS - Out of 5,231 views</button>
       </article>
-        <img src="imgs/bar-chart.png" class="bar__graph">
-      <article class="graph__btns">
-        <button class="graph__btn graph__btn--left">TOTALS - Out of 5,231 views</button>
+      
+      
+
+
+
+
+      <article class="bar__graph--section">
+        <div>
+          <img src="imgs/bar-chart.png" alt="Bar graph for employment position." class="bar__graph">
+        </div>
         <button class="graph__btn graph__btn--right">APPLICANTS/DAY</button>
       </article>
+
     </section>
 
 <!-- ~~~~~~~TABLE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -193,9 +204,13 @@
           <td class="row2">Lorem ipsum dolor sit amet, eu mea erant dicam. Et mea etiam dicant. Id mei novum insolens, sea no veniam ridens nusquam. Aliquam invidunt mediocritatem in pro, amet ridens meliore vix ea.</td>
         </tr>
         <tr>
-          <td class="row1">HIRING LEAD</td>
-          <td class="row2">Tom Tizzy</td>
-          <!-- <td class="row2" id="details__img--container"><img src="imgs/cam.png" id="details__img">   Tom Tizzy</td> -->
+          <td class="row1">
+            <span class="details__hiring">HIRING LEAD</span>
+          </td>
+          <td class="row2" id="details__img--container">
+            <img src="imgs/cam.png" id="details__img">
+            <span class="tizzy-pic">Tom Tizzy</span>
+          </td>
         </tr>
         <tr>
           <td class="row1 lastrow">APPROVED SALARY</td>

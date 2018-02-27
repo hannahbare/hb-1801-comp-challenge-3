@@ -3,14 +3,16 @@
 }
 
 body {
+  background-color: #354051;
   font-size: 10px;
   font-weight: bold;
 }
+
 .sidebar {
   display: inline-block;
   width: 12.5rem;
   height: 100vh;
-  background-color: #354051;;
+  background-color: #354051;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -111,7 +113,7 @@ header {
 }
 
 #search__bar--input {
-  width: 40rem;
+  width: 80%;
   height: 3.9rem;
   border: none;
   font-size: 1rem;
@@ -191,7 +193,7 @@ header {
 .title__right {
   position: absolute;
   top: 3rem;
-  right: 7rem;
+  right: 2.8rem;
 }
 
 .green-dot {
@@ -218,13 +220,15 @@ header {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .links {
-  height: 4.2rem;
-  padding-left: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 6rem;
+  padding: 3rem 0 4rem 2.8rem;
   border-bottom: 2px solid #D9DDE3;
 }
 
 .links__li {
-  display: inline-block;
   margin: 1rem 2.8rem 0 0;
   color: #9d9bac;
   cursor: pointer;
@@ -233,54 +237,70 @@ header {
 }
 
 .links__li:hover {
-  padding-bottom: 2rem;
+  padding-bottom: 2.9rem;
   border-bottom: 3px solid #55B9FB;
   color: #303949;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*GRAPHS__________________________*/
-.graphs__section {
-  position: relative;
-  height: 17rem;
-  padding-bottom: 2rem;
-  border-bottom: 2px solid #D9DDE3;
-  margin: 0 2.8rem;
+
+.graphs__section { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2.8rem;
+  border-bottom: 2px solid #d9dde3;
+}
+
+.circle__graph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 567px;
 }
 
 .circle {
-  width: 8rem;
-  height: 8rem;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
   border: 0.7rem solid;
-  margin: 2.5rem 5% 0 0 ;
   background-color: #e7eff1;
   border-radius: 50%;
 }
 
+.circle:hover {
+  background-color: #b3b5bc;
+  cursor: pointer;
+}
+
 .circlegraph__one {
-  display: inline-block;
-  border-color: #50b8bd #50b8bd #D9DDE3 #50b8bd;
-  margin-left: 2rem;
+  border-color: #50b8bd #50b8bd #d9dde3 #50b8bd;
 }
 
 .circlegraph__two {
-  display: inline-block;
   border-color: #d9dde3 #d9dde3 #d9dde3 #25a5fa;
 }
 
 .circlegraph__three {
-  display: inline-block;
   border-color: #d9dde3 #d9dde3 #ac65b2 #d9dde3;
 }
 
-.bar__graph {
-  position: absolute;
-  top: 2.2rem;
-  right: -0.2rem;
-  height: 10rem;
-  margin-right: 2rem;
-}
-
 .circle__graph--container {
-  padding-top: 2.2rem;
+  padding-top: 1.4rem;
 }
 
 .circle__graph--num {
@@ -296,12 +316,13 @@ header {
 }
 
 .graph__btn {
+  display: block;
   height: 2rem;
   border-radius: 50px;
   padding: 0 1.2rem;
-  margin-top: 2rem;
+  margin: 20px auto;
   font-size: 0.9rem;
-  color: #7b7e87;;
+  color: #7b7e87;
   cursor: pointer;
 }
 
@@ -311,23 +332,63 @@ header {
 }
 
 .graph__btn--left {
-  margin-left: 17%;
+  margin: 3.3rem auto 3rem auto;
+}
+
+.bar__graph--section {
+  height: 12rem;
+}
+
+.bar__graph {
+  height: 10rem;
+}
+
+.bar__graph:hover {
+  cursor: pointer;
 }
 
 .graph__btn--right {
-  margin-left: 37%;
+  margin: 2.2rem auto 3rem auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*TABLE```````````````````````````````````````````````````*/
 
 .details {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .details__table {
   width: 65%;
   height: 30rem;
-  margin: 2.8rem;
+  margin: 2.8rem 4% 2.8rem 2.8rem;
   background-color: #f5f5f7;
   color: #6c7c95;
 }
@@ -368,6 +429,20 @@ header {
   border-bottom: none;
 }
 
+.details__hiring {
+  vertical-align: 17px
+}
+
+#details__img {
+  height: 3rem;
+  border-radius: 50px;
+}
+
+.tizzy-pic {
+  vertical-align: 17px;
+  padding-left: 1rem;
+}
+
 #details__money {
   color: #303949;
   font-weight: bold;
@@ -382,7 +457,7 @@ header {
 }
 
 .social__btns {
-  height: 13.25rem;
+  height: 11.25rem;
 }
 
 .social__btns--three {
@@ -404,7 +479,7 @@ header {
 #fb__icon,
 #twitter__icon,
 #linkedin__icon {
-  margin: 0 3rem 0 1rem;
+  margin: 0 19% 0 1rem;
 }
 
 #btn__twitter {
@@ -416,7 +491,7 @@ header {
 }
 
 .social__input--section {
-  height: 9.5rem;
+  height: 10.5rem;
 }
 
 .social__section--one,
@@ -471,7 +546,7 @@ form {
 }
 
 .social__btn--copy {
-  width: 4rem;
+  width: 21%;
   height: 2.38rem;
   border: none;
   border-radius: 3px;
@@ -480,6 +555,92 @@ form {
   background-color: #4fbbbe;
   font-size: 0.8rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+
+
+
+  #fb__icon,
+  #twitter__icon,
+  #linkedin__icon {
+    margin: 0 12% 0 1rem;
+  }
+
+  .social__input {
+    width: 72%;
+  }
+
+  #social__input--third {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
