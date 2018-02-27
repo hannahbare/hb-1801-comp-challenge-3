@@ -11,49 +11,50 @@
   <title>Static Comp 3</title>
 </head>
 <body>
+
   <nav class="sidebar">
     <article class="sidebar__top">
       <img alt="Image of person" image of topic" src="imgs/cam.png" class="nav__img">
-      <h3 class="nav__name"> The Rock<i class="fa fa-chevron-down" aria-hidden="true"></i>
+      <h3 class="nav__name">The Rock  <i class="fa fa-chevron-down" aria-hidden="true"></i>
       </h3>
     </article>
     <article class="nav__art">
       <h3 class="nav__title">Main</h3>
       <ul>
         <li class="nav__li">
-          <i class="fa fa-home" aria-hidden="true"></i> Home
+          <i class="fa fa-home" aria-hidden="true"></i><span class="nav__li--title">Home</span>
         </li>
         <li class="nav__li">
-          <i class="fa fa-briefcase" aria-hidden="true"></i> Jobs
+          <i class="fa fa-briefcase" aria-hidden="true"></i> <span class="nav__li--title">Jobs</span>
         </li>
         <li class="nav__li">
-          <i class="fas fa-file-alt" aria-hidden="true"></i> Resume
+          <i class="fas fa-file-alt" aria-hidden="true"></i> <span class="nav__li--title">Resume</span>
         </li>
         <li class="nav__li">
-          <i class="fa fa-tasks" aria-hidden="true"></i> Tasks
+          <i class="fa fa-tasks" aria-hidden="true"></i><span class="nav__li--title">Tasks</span>
         </li>
         <li class="nav__li">
-          <i class="far fa-calendar-alt" aria-hidden="true"></i> Calendar
+          <i class="far fa-calendar-alt" aria-hidden="true"></i><span class="nav__li--title">Calendar</span>
         </li>
       </ul>
     </article>
     <article class="nav__art">
-      <h3 class="nav__title">Admin</h3>
+      <h3 class="nav__title"><span class="nav__li--title">Admin</span></h3>
       <ul>
         <li class="nav__li">
-          <i class="fa fa-user" aria-hidden="true"></i> Users
+          <i class="fa fa-user" aria-hidden="true"></i><span class="nav__li--title">Users</span>
         </li>
         <li class="nav__li">
-          <i class="far fa-compass" aria-hidden="true"></i> Location
+          <i class="far fa-compass" aria-hidden="true"></i><span class="nav__li--title">Location</span>
         </li>
         <li class="nav__li">
-          <i class="fas fa-code-branch" aria-hidden></i> Workflows
+          <i class="fas fa-code-branch" aria-hidden></i><span class="nav__li--title">Workflows</span>
         </li>
         <li class="nav__li">
-          <i class="fa fa-briefcase" aria-hidden="true"></i> Job Boards
+          <i class="fa fa-briefcase" aria-hidden="true"></i><span class="nav__li--title">Job Boards</span>
         </li>
         <li class="nav__li">
-          <i class="fas fa-users" aria-hidden="true"></i> Social
+          <i class="fas fa-users" aria-hidden="true"></i><span class="nav__li--title">Social</span>
         </li>
       </ul>
     </article>
@@ -116,12 +117,13 @@
       <section>
         <ul class="links">
           <li class="links__li">SUMMARY</li>
-          <li class="links__li">APPLICANTS</li>
-          <li class="links__li">JOB BOARD</li>
-          <li class="links__li">INTERVIEWS</li>
-          <li class="links__li">ACTIVITY</li>
-          <li class="links__li">BROADCAST</li>
-          <li class="links__li">NOTIFICATIONS</li>
+          <li class="links__li links__dropdown"><i class="far fa-caret-square-down"></i></li>
+          <li class="links__li links__hide">APPLICANTS</li>
+          <li class="links__li links__hide">JOB BOARD</li>
+          <li class="links__li links__hide">INTERVIEWS</li>
+          <li class="links__li links__hide">ACTIVITY</li>
+          <li class="links__li links__hide">BROADCAST</li>
+          <li class="links__li links__hide">NOTIFICATIONS</li>
         </ul>
       </section>
     </header>
