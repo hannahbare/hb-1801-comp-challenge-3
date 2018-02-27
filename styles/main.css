@@ -262,13 +262,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 2.8rem;
+  border-bottom: 2px solid #d9dde3;
 }
 
 .circle__graph {
-  width: 567px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 567px;
 }
 
 .circle {
@@ -280,8 +282,13 @@ header {
   border-radius: 50%;
 }
 
+.circle:hover {
+  background-color: #b3b5bc;
+  cursor: pointer;
+}
+
 .circlegraph__one {
-  border-color: #50b8bd #50b8bd #D9DDE3 #50b8bd;
+  border-color: #50b8bd #50b8bd #d9dde3 #50b8bd;
 }
 
 .circlegraph__two {
@@ -325,7 +332,7 @@ header {
 }
 
 .graph__btn--left {
-  margin: 2.5rem auto 3rem auto;
+  margin: 3.3rem auto 3rem auto;
 }
 
 .bar__graph--section {
@@ -334,7 +341,10 @@ header {
 
 .bar__graph {
   height: 10rem;
-  margin-left: 1rem;
+}
+
+.bar__graph:hover {
+  cursor: pointer;
 }
 
 .graph__btn--right {
