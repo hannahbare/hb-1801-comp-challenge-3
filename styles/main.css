@@ -109,6 +109,7 @@ header {
 }
 
 .icon:hover {
+  height: 4.3rem;
   background-color: #1dabec;
   color: #fff;
 }
@@ -715,6 +716,14 @@ form {
 }
 
 @media (max-width: 345px) {
+  .title__dot {
+    display: none;
+  }
+
+  .title__detail--link {
+    padding-left: 1.4rem;
+  }
+
   .links__hide--6 {
     display: none;
   }
