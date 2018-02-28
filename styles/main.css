@@ -105,6 +105,7 @@ header {
   padding: 1.4rem 1rem;
   color: #7b7e87;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .icon:hover {
@@ -235,7 +236,8 @@ header {
   font-weight: bold;
 }
 
-.links__dropdown {
+#links__downarrow,
+#links__showmore {
   display: none;
 }
 
@@ -243,10 +245,6 @@ header {
   padding-bottom: 2.9rem;
   border-bottom: 3px solid #55B9FB;
   color: #303949;
-}
-
-.fas {
-  width: 1rem;
 }
 
 .nav__li--title {
@@ -371,10 +369,14 @@ header {
   color: #fff;
   font-size: 0.9rem;
   font-weight: bold;
+  cursor: pointer;
+}
+
+#details__edit:hover {
+  background-color: #354051;
 }
 
 .fa-pencil-alt {
-  padding-right: 0.3rem;
   font-size: 0.8rem;
   vertical-align: top;
 }
@@ -547,26 +549,12 @@ form {
 }
 
 @media (max-width: 1118px) {
-  .links {
-    height: 8rem;
-  }
-
   .links__li {
     margin: 1rem 1.8rem 0 0;
-  }
-
-  .links__li:hover {
-    padding-bottom: 0;
-    color: #55B9FB;
-    border-bottom: none;
   }
 }
 
 @media (max-width: 1031px) {
-  .links__li {
-    margin: 1rem 1.4rem 0 0;
-  }
-  
   .details {
     display: flex;
     justify-content: space-around;
@@ -596,7 +584,21 @@ form {
   }
 }
 
+@media (max-width: 1010px) {
+  .links__hide--1 {
+    display: none;
+  }
+
+  #links__showmore {
+    display: block;
+  }
+}
+
 @media (max-width: 960px) {
+  .links__hide--2 {
+    display: none;
+  }
+
   .title {
     height: 8rem;
   }
@@ -609,6 +611,12 @@ form {
     position: absolute;
     top: 2rem;
     left: 0;
+  }
+}
+
+@media (max-width: 838px) {
+  .links__hide--3 {
+    display: none;
   }
 }
 
@@ -628,24 +636,6 @@ form {
     width: 40%;
   }
 
-  .links {
-    height: 6rem;
-    margin: 0;
-  }
-
-  .links__li {
-      font-size: 1.25rem;
-      margin: 2rem 1rem 0 0;
-  }
-
-  .links__hide {
-    display: none;
-  }
-
-  .links__dropdown {
-    display: block;
-  }
-
   .graphs__section {
     height: 55rem;
   }
@@ -662,6 +652,24 @@ form {
 
   .bar__graph {
     height: 7.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .links__hide--4 {
+    display: none;
+  }
+}
+
+@media (max-width: 456px) {
+  .links {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 444px) {
+  .links__hide--5 {
+    display: none;
   }
 }
 
@@ -703,5 +711,11 @@ form {
   #twitter__icon, 
   #linkedin__icon {
     margin-left: 17%;
+  }
+}
+
+@media (max-width: 345px) {
+  .links__hide--6 {
+    display: none;
   }
 }
