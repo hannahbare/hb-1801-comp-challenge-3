@@ -110,13 +110,14 @@
       <section>
         <ul class="links">
           <li class="links__li">SUMMARY</li>
-          <li class="links__li links__dropdown"><i class="far fa-caret-square-down"></i></li>
-          <li class="links__li links__hide">APPLICANTS</li>
-          <li class="links__li links__hide">JOB BOARD</li>
-          <li class="links__li links__hide">INTERVIEWS</li>
-          <li class="links__li links__hide">ACTIVITY</li>
-          <li class="links__li links__hide">BROADCAST</li>
-          <li class="links__li links__hide">NOTIFICATIONS</li>
+          <li class="links__li" id="links__downarrow"><i class="far fa-caret-square-down"></i></li>
+          <li class="links__li links__hide--6">APPLICANTS</li>
+          <li class="links__li links__hide--5">JOB BOARD</li>
+          <li class="links__li links__hide--4">INTERVIEWS</li>
+          <li class="links__li links__hide--3">ACTIVITY</li>
+          <li class="links__li links__hide--2">BROADCAST</li>
+          <li class="links__li links__hide--1">NOTIFICATIONS</li>
+          <li class="links__li" id="links__showmore">more...</li>
         </ul>
       </section>
     </header>    
@@ -200,7 +201,6 @@
       </table>
       <article class="social__section">
         <div class="social__btns">
-
           <button class="social__btns--three" id="btn__facebook">
             <i class="fab fa-facebook-f" id="fb__icon"></i>Post to Facebook
           </button>
@@ -216,7 +216,6 @@
             <h5 class="social__title">
               <i class="fas fa-globe"></i>Link to this Job</h5>
             <p class="social__para">Mel singulis constituto te, timeam alterum atomorum pro in. Veri justo ea quo.</p>
-
             <form class="social__form">
               <input type="text" class="social__input" aria-label="Text input for your email." placeholder="http://www.google.com">
               <button class="social__btn--copy">Copy</button>
