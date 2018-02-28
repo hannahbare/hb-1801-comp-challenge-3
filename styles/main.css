@@ -247,10 +247,6 @@ header {
   color: #303949;
 }
 
-.fas {
-  width: 1rem;
-}
-
 .nav__li--title {
   padding-left: 0.5rem;
 }
@@ -553,18 +549,8 @@ form {
 }
 
 @media (max-width: 1118px) {
-  .links {
-    height: 8rem;
-  }
-
   .links__li {
     margin: 1rem 1.8rem 0 0;
-  }
-
-  .links__li:hover {
-    padding-bottom: 0;
-    color: #55B9FB;
-    border-bottom: none;
   }
 }
 
